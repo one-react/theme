@@ -2,15 +2,17 @@ language: node_js
 cache:
   directories:
     - ~/.npm
+    - node_modules
 notifications:
   email: false
 node_js:
-  - '9'
   - '8'
-  - '6'
-  - '4'
+before_install:
+  - npm i -g npm
+before_script:
+  - npm prune
 after_success:
   - npm run semantic-release
 branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
+  only:
+    - master
