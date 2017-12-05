@@ -1,1 +1,36 @@
-$brand-color: #fff !default;
+$prefix: 'or' !default;
+
+// color
+$black: #000 !default;
+$gray8: #212121 !default;
+$gray7: #424242 !default;
+$gray6: #616161 !default;
+$gray5: #757575 !default;
+$gray4: #9E9E9E !default;
+$gray3: #BDBDBD !default;
+$gray2: #E0E0E0 !default;
+$gray1: #EEEEEE !default;
+$gray0: #F5F5F5 !default;
+$white: #fff !default;
+
+$basic-blue: #2196F3 !default;
+$light-blue: #90CAF9 !default;
+$dark-blue: #1565C0 !default;
+
+$basic-red: #F44336 !default;
+$basic-green: #4CAF50 !default;
+
+// border radius
+$btn-border-radius: 3px !default;
+$btn-border-radius-sm: 5px !default;
+$btn-border-radius-lg: 1px !default;
+
+// button style
+$btn-padding-x: 40px !default;
+$btn-padding-y: 20px !default;
+
+$btn-border-radius: $btn-border-radius !default;
+
+// dividing line
+$separator-width: 1px !default;
+$separator-color: $gray2 !default;
