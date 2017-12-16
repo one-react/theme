@@ -18,7 +18,38 @@ $light-blue: #90CAF9 !default;
 $dark-blue: #1565C0 !default;
 
 $basic-red: #F44336 !default;
+$light-red: #F16459 !default;
 $basic-green: #4CAF50 !default;
+
+$primary-color: #769FCD !default;
+$primary-color0: #86A9D0 !default;
+$primary-color1: #B9D7EA !default;
+$primary-color2: #D6E6F2 !default;
+$primary-color3: #F7FBFC !default;
+
+// Theme color: Cute Baby
+$baby-blue: #c0e3f5 !default;
+$primrose: #ffec8e !default;
+$cream-yellow: #fbf5d2 !default;
+
+// Theme color: Sakura Matsuri
+$blossom-pink: #f6d1df !default;
+$sakura-pink: #fdf2f5 !default;
+$sakura-brown: #816a16 !default;
+
+$disabled-color: $gray3;
+$warning-color: $basic-red;
+$warning-color0: $light-red;
+
+// vertical padding
+$padding-y: 10px !default;
+$padding-y-lg: 15px !default;
+$padding-y-sm: 5px !default;
+
+// horizental padding
+$padding-x: 30px !default;
+$padding-x-lg: 40px !default;
+$padding-x-sm: 10px !default;
 
 // border radius
 $btn-border-radius: 3px !default;
@@ -26,8 +57,15 @@ $btn-border-radius-sm: 5px !default;
 $btn-border-radius-lg: 1px !default;
 
 // button style
-$btn-padding-x: 40px !default;
-$btn-padding-y: 20px !default;
+$btn-padding-x: $padding-x;
+$btn-padding-y: $padding-y;
+
+$btn-padding-x-lg: $padding-x-lg;
+$btn-padding-y-lg: $padding-y-lg;
+
+$btn-padding-x-sm: $padding-x-sm;
+$btn-padding-y-sm: $padding-y-sm;
+
 
 $btn-border-radius: $btn-border-radius !default;
 
