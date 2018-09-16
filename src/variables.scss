@@ -21,12 +21,14 @@ $basic-red: #F44336 !default;
 $light-red: #F16459 !default;
 $basic-green: #4CAF50 !default;
 
-$primary-color: #769FCD !default;
-$primary-color0: #86A9D0 !default;
+$primary-color: #212121 !default;
+$primary-color0: #333 !default;
 
 $disabled-color: $gray3;
 $warning-color: $basic-red;
 $warning-color0: $light-red;
+
+$font-family: "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 // vertical padding
 $padding-y: 10px !default;
