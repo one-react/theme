@@ -1,62 +1,41 @@
 $prefix: 'or' !default;
 
 // color
-$black: #000 !default;
-$gray8: #212121 !default;
-$gray7: #424242 !default;
-$gray6: #616161 !default;
-$gray5: #757575 !default;
-$gray4: #9E9E9E !default;
-$gray3: #BDBDBD !default;
-$gray2: #E0E0E0 !default;
-$gray1: #EEEEEE !default;
-$gray0: #F5F5F5 !default;
-$white: #fff !default;
+$or-gray8: #212121 !default;
+$or-gray7: #424242 !default;
+$or-gray6: #616161 !default;
+$or-gray5: #757575 !default;
+$or-gray4: #9E9E9E !default;
+$or-gray3: #BDBDBD !default;
+$or-gray2: #E0E0E0 !default;
+$or-gray1: #EEEEEE !default;
+$or-gray0: #F5F5F5 !default;
 
-$basic-blue: #2196F3 !default;
-$light-blue: #90CAF9 !default;
-$dark-blue: #1565C0 !default;
+$or-basic-blue: #2196F3 !default;
+$or-light-blue: #90CAF9 !default;
 
-$basic-red: #F44336 !default;
-$light-red: #F16459 !default;
-$basic-green: #4CAF50 !default;
+$or-basic-red: #F44336 !default;
+$or-light-red: #F16459 !default;
 
-$primary-color: #212121 !default;
-$primary-color0: #333 !default;
-
-$disabled-color: $gray3;
-$warning-color: $basic-red;
-$warning-color0: $light-red;
-
-$font-family: "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-// vertical padding
-$padding-y: 10px !default;
-$padding-y-lg: 15px !default;
-$padding-y-sm: 5px !default;
-
-// horizental padding
-$padding-x: 30px !default;
-$padding-x-lg: 40px !default;
-$padding-x-sm: 10px !default;
+$or-primary-color: #212121 !default;
+$or-primary-color-light: #333 !default;
+$or-disabled-color: $or-gray3;
+$or-warning-color: $or-basic-red;
+$or-warning-color-light: $or-light-red;
 
 // border radius
-$btn-border-radius: 3px !default;
-$btn-border-radius-sm: 5px !default;
-$btn-border-radius-lg: 1px !default;
+$or-border-radius: 3px !default;
+$or-border-radius-lg: 5px !default;
+$or-border-radius-sm: 1px !default;
 
-// button style
-$btn-padding-x: $padding-x;
-$btn-padding-y: $padding-y;
+$or-border-width: 1px !default;
+$or-border-width-lg: 2px !default;
 
-$btn-padding-x-lg: $padding-x-lg;
-$btn-padding-y-lg: $padding-y-lg;
-
-$btn-padding-x-sm: $padding-x-sm;
-$btn-padding-y-sm: $padding-y-sm;
-
-$btn-border-radius: $btn-border-radius !default;
+// gap
+$or-gap: 10px;
 
 // dividing line
-$separator-width: 1px !default;
-$separator-color: $gray2 !default;
+$or-separator-width: 1px !default;
+$or-separator-color: $or-gray2 !default;
+
+$or-font-family: "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;

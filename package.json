@@ -3,9 +3,7 @@
   "description": "",
   "main": "theme.scss",
   "scripts": {
-    "commitmsg": "commitlint -e $GIT_PARAMS",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "commit": "git-cz"
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -20,14 +18,14 @@
   "devDependencies": {
     "@commitlint/cli": "^7.1.2",
     "@commitlint/config-angular": "^7.1.2",
-    "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.1.0",
+    "husky": "^1.1.1",
     "semantic-release": "^15.9.15"
   },
   "dependencies": {},
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
 }
